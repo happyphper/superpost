@@ -1,0 +1,34 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="80" height="80" rx="24" fill="url(#sp-bg)"/>
+  <rect x="9" y="9" width="78" height="78" rx="23" stroke="url(#sp-border)" stroke-width="2"/>
+  <path d="M25 31C31 21 46 17 61 22" stroke="url(#sp-orbit-a)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M71 65C62 76 43 79 28 70" stroke="url(#sp-orbit-b)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M28 70L35 69L31.5 75.5" stroke="#D8B4FE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M66 20L61 25.5L58 18" stroke="#F0ABFC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="48" y="64" text-anchor="middle" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="49" font-weight="900" letter-spacing="-3" fill="white">S</text>
+  <path d="M29 23H20V32" stroke="white" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+  <path d="M67 73H76V64" stroke="white" stroke-opacity=".28" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="28" cy="31" r="3.5" fill="#F0ABFC"/>
+  <circle cx="68" cy="65" r="3.5" fill="#C4B5FD"/>
+  <defs>
+    <linearGradient id="sp-bg" x1="18" y1="14" x2="82" y2="86" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset=".45" stop-color="#312E81"/>
+      <stop offset=".74" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="sp-border" x1="14" y1="11" x2="84" y2="88" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity=".65"/>
+      <stop offset=".48" stop-color="#A78BFA" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#F0ABFC" stop-opacity=".72"/>
+    </linearGradient>
+    <linearGradient id="sp-orbit-a" x1="25" y1="27" x2="61" y2="27" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#F0ABFC"/>
+    </linearGradient>
+    <linearGradient id="sp-orbit-b" x1="28" y1="72" x2="71" y2="68" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F0ABFC"/>
+    </linearGradient>
+  </defs>
+</svg>

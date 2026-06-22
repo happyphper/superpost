@@ -1,0 +1,80 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFF"/>
+      <stop offset=".45" stop-color="#F3F0FF"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset=".55" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F46E5"/>
+      <stop offset=".5" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity=".96"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".72"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="28" stdDeviation="34" flood-color="#312E81" flood-opacity=".16"/>
+    </filter>
+    <filter id="logoShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#7C3AED" flood-opacity=".28"/>
+    </filter>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0V72" stroke="#FFFFFF" stroke-opacity=".62" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#grid)" opacity=".78"/>
+  <circle cx="1538" cy="122" r="350" fill="#A855F7" opacity=".10"/>
+  <circle cx="362" cy="930" r="360" fill="#4F46E5" opacity=".08"/>
+  <circle cx="1020" cy="542" r="430" fill="#C4B5FD" opacity=".11"/>
+
+  <g filter="url(#shadow)">
+    <rect x="92" y="86" width="1736" height="908" rx="48" fill="#FFFFFF" fill-opacity=".58" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(210 178)">
+    <rect x="0" y="0" width="128" height="128" rx="36" fill="url(#brand)" filter="url(#logoShadow)"/>
+    <path d="M34 42C42 28 62 23 82 30" stroke="#F0ABFC" stroke-width="6" stroke-linecap="round"/>
+    <path d="M94 86C82 101 56 105 37 93" stroke="#C4B5FD" stroke-width="6" stroke-linecap="round"/>
+    <text x="64" y="87" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="900" fill="#FFFFFF">S</text>
+  </g>
+
+  <g transform="translate(210 420)">
+    <text x="0" y="0" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="118" font-weight="900" fill="#111827">SuperPost</text>
+    <rect x="0" y="42" width="520" height="8" rx="4" fill="url(#accent)"/>
+    <text x="0" y="142" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="850" fill="#312E81">把 Markdown 一键排成公众号好文</text>
+    <text x="0" y="218" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="750" fill="#64748B">作者：码龙</text>
+  </g>
+
+  <g transform="translate(210 684)">
+    <rect x="0" y="0" width="260" height="74" rx="37" fill="url(#chip)" stroke="#DDE7F5"/>
+    <circle cx="42" cy="37" r="10" fill="#22C55E"/>
+    <text x="68" y="48" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="850" fill="#334155">实时预览</text>
+
+    <rect x="292" y="0" width="260" height="74" rx="37" fill="url(#chip)" stroke="#DDE7F5"/>
+    <circle cx="334" cy="37" r="10" fill="#4F46E5"/>
+    <text x="360" y="48" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="850" fill="#334155">富文本复制</text>
+
+    <rect x="584" y="0" width="260" height="74" rx="37" fill="url(#chip)" stroke="#DDE7F5"/>
+    <circle cx="626" cy="37" r="10" fill="#A855F7"/>
+    <text x="652" y="48" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="25" font-weight="850" fill="#334155">微信适配</text>
+  </g>
+
+  <g transform="translate(1160 262)">
+    <rect x="0" y="0" width="540" height="380" rx="36" fill="#FFFFFF" fill-opacity=".62" stroke="#FFFFFF"/>
+    <text x="46" y="76" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="31" font-weight="900" fill="#4F46E5">Markdown → 公众号</text>
+    <text x="46" y="142" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#111827">写作、排版、预览、复制</text>
+    <text x="46" y="202" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="650" fill="#64748B">专为微信公众号编辑器优化</text>
+    <text x="46" y="252" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="650" fill="#64748B">让内容创作少一点折腾</text>
+    <rect x="46" y="304" width="248" height="56" rx="28" fill="url(#brand)"/>
+    <text x="170" y="341" text-anchor="middle" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">一键生成好文版式</text>
+  </g>
+</svg>
